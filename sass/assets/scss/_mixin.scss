@@ -1,0 +1,10 @@
+@mixin buttonGenerator($emil, $heigth, $bg-color, $color: red) {
+  width: $emil;
+  height: $heigth;
+  background-color: $bg-color;
+  color: $color;
+}
+@mixin bordered($color, $width, $radius: 0px) {
+  border-radius: $radius;
+  border: $width solid $color;
+}

@@ -1,0 +1,58 @@
+@import 'variables';
+@import 'mixin';
+.centerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  li {
+    a {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}
+
+.box {
+  @extend .centerDiv;
+  width: $main-screen;
+  height: 100px;
+  background-color: $main-color;
+  &__header {
+  }
+  &__footer {
+  }
+  &:hover &__header {
+    background-color: red;
+  }
+}
+
+.box2 {
+  @extend .centerDiv;
+}
+.header {
+  @extend .navbar;
+}
+
+.button1 {
+  @include buttonGenerator(100px, 50px, $main-color);
+  @include bordered(red, 10px, 10px);
+}
+
+.button2 {
+  @include buttonGenerator(200px, 100px, aqua, black);
+}
+
+.button3 {
+  @include buttonGenerator(50px, 100px, green, red);
+}

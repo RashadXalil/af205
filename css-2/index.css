@@ -1,0 +1,65 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  color: white;
+  background-color: blue;
+  transition: 0.3s linear;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#twitter {
+  background-color: #1da1f2;
+}
+#instagram {
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
+#twitter:hover {
+  color: #1da1f2;
+  background-color: white;
+}
+#tiktok {
+  background-color: black;
+  color: white;
+}
+#tiktok-icon {
+  text-shadow: 2px 2px #ff0000;
+}
+#instagram:hover {
+  transform: scale(1.1);
+}
+#tiktok:hover {
+}
+.boxes {
+  display: flex;
+}
+.box:hover {
+  background-color: rgb(3, 3, 113);
+}
+
+.text {
+  width: 400px;
+  text-align: justify;
+}
+a {
+  text-transform: uppercase;
+  letter-spacing: 20px;
+
+  text-decoration: line-through red;
+} */
+/* input {
+  border: none;
+  border: 1px solid lightgreen;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px red;
+} */

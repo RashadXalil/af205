@@ -1,0 +1,95 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div {
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/09/instagram-image-size.jpg");
+}
+header {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 20px;
+}
+.header__mobile {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+  border: 1px solid green;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .header__right {
+    display: none;
+  }
+  .header__mobile {
+    display: block;
+  }
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.app {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu menu main main main main"
+    "menu menu section section section section"
+    "footer footer footer footer footer footer";
+}
+header {
+  background-color: aqua;
+  grid-area: header;
+  padding: 20px;
+}
+.section {
+  grid-area: section;
+  padding: 20px;
+  background-color: blue;
+}
+.menu {
+  background-color: red;
+  padding: 20px;
+  grid-area: menu;
+}
+main {
+  background-color: orange;
+  grid-area: main;
+  padding: 20px;
+}
+footer {
+  background-color: blueviolet;
+  grid-area: footer;
+  padding: 20px;
+}

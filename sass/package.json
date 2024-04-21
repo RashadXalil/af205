@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.72.0"
+  },
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass assets/scss/index.scss -o assets/css  -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
