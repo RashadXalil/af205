@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "id": "9bbc61c9-43f1-4d23-8b08-d046af54b9f3",
+      "name": "Marvel Infinity War",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "price": "21",
+      "image": "https://static.displate.com/280x392/displate/2021-01-28/dc1c9755686a49e6b6d5d8862c3d3b28_a1bca47c459b1b31f0361c9c916e0192.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "blog": {
+    "name": "typicode"
+  }
+}

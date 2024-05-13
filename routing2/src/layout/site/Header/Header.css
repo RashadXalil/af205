@@ -1,0 +1,37 @@
+.custom__navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  h1 {
+    color: red;
+  }
+}
+.navbar__list {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 !important;
+  list-style: none;
+  gap: 20px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+  margin-left: 100px;
+  button {
+    border: none;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
