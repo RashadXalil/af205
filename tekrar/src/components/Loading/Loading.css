@@ -1,0 +1,54 @@
+.loading-container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: white;
+}
+
+.loading-container button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 2rem 4rem;
+  font-size: 3rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.loading-button-loader {
+  display: flex;
+  gap: 0.25rem;
+}
+.loading-button-loader > div {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: white;
+  border-radius: 50%;
+  animation: 1.2s infinite ease-in-out load;
+}
+
+.loading-button-loader div:nth-child(1) {
+  animation-delay: -0.32s;
+}
+.loading-button-loader div:nth-child(2) {
+  animation-delay: -0.16s;
+}
+.loading-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3.5rem;
+}
+@keyframes load {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}

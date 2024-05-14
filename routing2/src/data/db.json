@@ -6,6 +6,13 @@
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "price": "21",
       "image": "https://static.displate.com/280x392/displate/2021-01-28/dc1c9755686a49e6b6d5d8862c3d3b28_a1bca47c459b1b31f0361c9c916e0192.jpg"
+    },
+    {
+      "id": "95e38f5a-d157-4516-ae05-a2e90dd2f1a4",
+      "name": "Marvel Infinity War",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "price": "21",
+      "image": "https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg"
     }
   ],
   "users": [
